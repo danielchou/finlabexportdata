@@ -155,3 +155,37 @@ def write_LogFile(fileName, write_content):
     f = codecs.open(fileName, mode="w", encoding="utf-8", errors="strict")
     f.write(write_content)
     f.close()
+
+def getLastFileDate(directory, trimStr):
+
+    # 列出目錄中的所有檔案
+    items = os.listdir(directory)
+
+    # 過濾出只有檔案的項目，並提取檔案名稱部分
+    files = [os.path.splitext(item)[0] for item in items if os.path.isfile(os.path.join(directory, item))]
+
+    # 對檔案名稱進行排序
+    sorted_files = sorted(files)
+
+    # 取得排序後的檔案名稱中的最後一個（最大的）
+    max_filename = sorted_files[-1]
+    lastFileDate = max_filename.removeprefix(trimStr) #例如：ma_20230622 只取出20230622
+    print("最新的檔案日期：", lastFileDate)
+    return lastFileDate
+
+def getLast2FileDate(directory, trimStr):
+
+    # 列出目錄中的所有檔案
+    items = os.listdir(directory)
+
+    # 過濾出只有檔案的項目，並提取檔案名稱部分
+    files = [os.path.splitext(item)[0] for item in items if os.path.isfile(os.path.join(directory, item))]
+
+    # 對檔案名稱進行排序
+    sorted_files = sorted(files)
+
+    # 取得排序後的檔案名稱中的最後一個（最大的）
+    max_filename = sorted_files[-2]
+    lastFileDate = max_filename.removeprefix(trimStr) #例如：ma_20230622 只取出20230622
+    print("次新的檔案日期：", lastFileDate)
+    return lastFileDate

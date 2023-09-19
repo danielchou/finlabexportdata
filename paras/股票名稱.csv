@@ -1,320 +1,4 @@
-^011,水泥類
-^012,食品類
-^013,塑膠類
-^014,紡織類
-^015,電機機械
-^016,電器電纜
-^017,化學工業
-^018,生技醫療業
-^019,玻璃陶瓷
-^020,造紙類
-^021,鋼鐵類
-^022,橡膠類
-^023,汽車類
-^024,半導體業
-^025,電腦及週邊設備
-^026,光電業
-^027,通信網路業
-^028,電子零組件
-^029,電子通路類
-^030,資訊服務類
-^031,其他電子類
-^032,營建類
-^033,航運類
-^034,觀光類
-^035,金融類
-^036,百貨貿易
-^037,油電燃氣類
-^038,其它類
-^044,櫃紡織纖維
-^045,櫃電機機械
-^047,櫃化學工業
-^048,櫃生技醫療
-^050,櫃鋼鐵工業
-^052,櫃半導體業
-^053,櫃電腦及週邊設備
-^054,櫃光電業
-^055,櫃通訊網路
-^056,櫃電子零組件業
-^057,櫃電子通路
-^058,櫃資訊服務業
-^059,櫃他電
-^060,櫃建材營造
-^061,櫃航運業
-^062,櫃觀光事業
-^066,櫃其他
-^260,櫃文創
-^263,化生類
-^264,電子類
-000-,大盤扣除台積電
-0000,加權指數
-0050,元大台灣50
-0051,元大中型100
-0052,富邦科技
-0053,元大電子
-0055,元大MSCI金融
-0056,元大高股息
-0057,富邦摩台
-0061,元大寶滬深
-006201,元大富櫃50
-006203,元大MSCI台灣
-006204,永豐臺灣加權
-006205,富邦上証
-006206,元大上證50
-006207,FH滬深
-006208,富邦台50
-00631L,元大台灣50正2
-00632R,元大台灣50反1
-00633L,富邦上証正2
-00634R,富邦上証反1
-00635U,期元大S&P黃金
-00636,國泰中國A50
-00636K,國泰中國A50+U
-00637L,元大滬深300正2
-00638R,元大滬深300反1
-00639,富邦深100
-00640L,富邦日本正2
-00641R,富邦日本反1
-00642U,期元大S&P石油
-00643,群益深証中小
-00645,富邦日本
-00646,元大S&P500
-00647L,元大S&P500正2
-00648R,元大S&P500反1
-00650L,FH香港正2
-00651R,FH香港反1
-00652,富邦印度
-00653L,富邦印度正2
-00654R,富邦印度反1
-00655L,國泰中國A50正2
-00656R,國泰中國A50反1
-00657,國泰日經225
-00657K,國泰日經225+U
-00660,元大歐洲50
-00661,元大日經225
-00662,富邦NASDAQ
-00663L,國泰臺灣加權正2
-00664R,國泰臺灣加權反1
-00665L,富邦恒生國企正2
-00666R,富邦恒生國企反1
-00668,國泰美國道瓊
-00668K,國泰美國道瓊+U
-00669R,國泰美國道瓊反1
-00670L,富邦NASDAQ正2
-00671R,富邦NASDAQ反1
-00673R,期元大S&P原油反1
-00674R,期元大S&P黃金反1
-00675L,富邦臺灣加權正2
-00676R,富邦臺灣加權反1
-00678,群益NBI生技
-00679B,元大美債20年
-00680L,元大美債20正2
-00681R,元大美債20反1
-00682U,期元大美元指數
-00683L,期元大美元指正2
-00684R,期元大美元指反1
-00685L,群益臺灣加權正2
-00686R,群益臺灣加權反1
-00687B,國泰20年美債
-00688L,國泰20年美債正2
-00689R,國泰20年美債反1
-00690,兆豐藍籌30
-00692,富邦公司治理
-00693U,期街口S&P黃豆
-00694B,富邦美債1-3
-00695B,富邦美債7-10
-00696B,富邦美債20年
-00697B,元大美債7-10
-00700,富邦恒生國企
-00701,國泰股利精選30
-00702,國泰標普低波高息
-00703,台新MSCI中國
-00706L,期元大S&P日圓正2
-00707R,期元大S&P日圓反1
-00708L,期元大S&P黃金正2
-00709,富邦歐洲
-00710B,FH彭博非投等債
-00711B,FH彭博新興債
-00712,FH富時不動產
-00713,元大台灣高息低波
-00714,群益道瓊美國地產
-00715L,期街口布蘭特正2
-00717,富邦美國特別股
-00718B,富邦中國政策債
-00719B,元大美債1-3
-00720B,元大投資級公司債
-00721B,元大中國債3-5
-00722B,群益15年IG電信債
-00723B,群益15年IG科技債
-00724B,群益10年IG金融債
-00725B,國泰投資級公司債
-00726B,國泰5Y+新興債
-00727B,國泰1-5Y非投等債
-00728,第一金工業30
-00730,富邦臺灣優質高息
-00731,FH富時高息低波
-00732,國泰RMB短期報酬
-00733,富邦臺灣中小
-00734B,台新JPM新興債
-00735,國泰臺韓科技
-00736,國泰新興市場
-00737,國泰AI+Robo
-00738U,期元大道瓊白銀
-00739,元大MSCIA股
-00740B,富邦全球投等債
-00741B,富邦全球非投等債
-00744B,國泰中國政金債5+
-00746B,富邦A級公司債
-00747B,FH中國政策債
-00748B,凱基中國債3-10
-00749B,凱基新興債10+
-00750B,凱基科技債10+
-00751B,元大AAA至A公司債
-00752,中信中國50
-00753L,中信中國50正2
-00754B,群益AAA-AA公司債
-00755B,群益15年IG公用債
-00756B,群益15年EM主權債
-00757,統一FANG+
-00758B,FH能源債
-00759B,FH製藥債
-00760B,FH新興企業債
-00761B,國泰A級公司債
-00762,元大全球AI
-00763U,期街口道瓊銅
-00764B,群益25年美債
-00765B,群益中國政金債
-00768B,FH20年美債
-00770,國泰北美科技
-00771,元大US高息特別股
-00772B,中信高評級公司債
-00773B,中信優先金融債
-00774B,新光中國政金綠債
-00775B,新光投等債15+
-00777B,凱基AAA至A公司債
-00778B,凱基金融債20+
-00779B,凱基美債25+
-00780B,國泰A級金融債
-00781B,國泰A級科技債
-00782B,國泰A級公用債
-00783,富邦中証500
-00784B,富邦中國投等債
-00785B,富邦金融投等債
-00786B,元大10年IG銀行債
-00787B,元大10年IG醫療債
-00788B,元大10年IG電能債
-00789B,FH公司債A3
-00790B,FH次順位IG金融債
-00791B,FH美元信用債1-5Y
-00792B,群益A級公司債
-00793B,群益AAA-A醫療債
-00794B,群益7+中國政金債
-00795B,中信美國公債20年
-00799B,國泰A級醫療債
-00830,國泰費城半導體
-00831B,新光美債1-3
-00834B,第一金金融債10+
-00836B,永豐10年A公司債
-00840B,凱基IG精選15+
-00841B,凱基AAA-AA公司債
-00842B,台新美元銀行債
-00844B,新光15年IG金融債
-00845B,富邦新興投等債
-00846B,富邦歐洲銀行債
-00847B,中信美國市政債
-00848B,中信新興亞洲債
-00849B,中信EM主權債0-5
-00850,元大臺灣ESG永續
-00851,台新全球AI
-00852L,國泰美國道瓊正2
-00853B,統一美債10年Aa-A
-00856B,永豐1-3年美公債
-00857B,永豐20年美公債
-00858,永豐美國500大
-00859B,群益0-1年美債
-00860B,群益1-5年IG債
-00861,元大全球未來通訊
-00862B,中信投資級公司債
-00863B,中信全球電信債
-00864B,中信美國公債0-1
-00865B,國泰US短期公債
-00867B,新光A-BBB電信債
-00870B,元大15年EM主權債
-00875,國泰網路資安
-00876,元大全球5G
-00877,FH中國5G
-00878,國泰永續高股息
-00881,國泰台灣5G+
-00882,中信中國高股息
-00883B,中信ESG投資級債
-00884B,中信低碳新興債
-00885,富邦越南
-00886,永豐美國科技
-00887,永豐中國科技50大
-00888,永豐台灣ESG
-00890B,凱基ESGBBB債15+
-00891,中信關鍵半導體
-00892,富邦台灣半導體
-00893,國泰智能電動車
-00894,中信小資高價30
-00895,富邦未來車
-00896,中信綠能及電動車
-00897,富邦基因免疫生技
-00898,國泰基因免疫革命
-00899,FT潔淨能源
-00900,富邦特選高股息30
-00901,永豐智能車供應鏈
-00902,中信電池及儲能
-00903,富邦元宇宙
-00904,新光臺灣半導體30
-00905,FT臺灣Smart
-00906,大華元宇宙科技50
-00907,永豐優息存股
-00908,富邦入息REITs+
-00909,國泰數位支付服務
-00910,第一金太空衛星
-00911,兆豐洲際半導體
-00912,中信臺灣智慧50
-00913,兆豐台灣晶圓製造
-00915,凱基優選高股息30
-00916,國泰全球品牌50
-00917,中信特選金融
-00918,大華優利高填息30
-00919,群益台灣精選高息
-00920,富邦ESG綠色電力
-01001T,土銀富邦R1
-01002T,土銀國泰R1
-01003T,兆豐新光R1
-01004T,土銀富邦R2
-01007T,兆豐國泰R2
-01009T,王道圓滿R1
-01010T,京城樂富R1
-020000,富邦特選蘋果N
-020002,元富新中國N
-020007,凱基臺灣500N
-020011,統一微波高息20N
-020012,富邦行動通訊N
-020014,元大富櫃200N
-020018,統一價值成長30N
-020019,統一特選台灣5GN
-02001L,富邦蘋果正二N
-020020,元大台股領航N
-020022,元大電動車N
-020023,元大櫃買半導體N
-020024,兆豐富櫃200N
-020025,統一亞洲半導體N
-020026,兆豐上櫃ESG電菁N
-020027,元大上櫃ESG成長N
-020028,元大特選電動車N
-020029,元大ESG高股息N
-020030,統一智慧電動車N
-020031,統一IC設計臺灣N
-020032,元大綠能N
-020033,統一恒生科期N
-020034,元大IC設計N
-020035,元大上櫃ESG高息N
 1101,台泥
-1101B,台泥乙特
 1102,亞泥
 1103,嘉泥
 1104,環泥
@@ -342,7 +26,6 @@
 1236,宏亞
 1240,茂生農經
 1256,鮮活果汁-KY
-1258,其祥-KY
 1259,安心
 1260,富味鄉
 1264,德麥
@@ -360,7 +43,6 @@
 1309,台達化
 1310,台苯
 1312,國喬
-1312A,國喬特
 1313,聯成
 1314,中石化
 1315,達新
@@ -391,6 +73,7 @@
 1423,利華
 1432,大魯閣
 1434,福懋
+1435,中福
 1436,華友聯
 1437,勤益控
 1438,三地開發
@@ -439,7 +122,6 @@
 1519,華城
 1521,大億
 1522,堤維西
-1522A,堤維西甲特
 1524,耿鼎
 1525,江申
 1526,日馳
@@ -554,7 +236,6 @@
 1907,永豐餘
 1909,榮成
 2002,中鋼
-2002A,中鋼特
 2006,東和鋼鐵
 2007,燁興
 2008,高興昌
@@ -660,7 +341,6 @@
 2345,智邦
 2347,聯強
 2348,海悅
-2348A,海悅甲特
 2349,錸德
 2351,順德
 2352,佳世達
@@ -722,6 +402,7 @@
 2429,銘旺科
 2430,燦坤
 2431,聯昌
+2432,倚天酷碁-創
 2433,互盛電
 2434,統懋
 2436,偉詮電
@@ -800,7 +481,6 @@
 2548,華固
 2596,綠意
 2597,潤弘
-2599,樂揚
 2601,益航
 2603,長榮
 2605,新興
@@ -857,6 +537,7 @@
 2745,五福
 2748,雲品
 2750,桃禧
+2751,王座
 2752,豆府
 2753,八方雲集
 2754,亞洲藏壽司
@@ -873,9 +554,7 @@
 2832,台產
 2834,臺企銀
 2836,高雄銀
-2836A,高雄銀甲特
 2838,聯邦銀
-2838A,聯邦銀甲特
 2845,遠東銀
 2849,安泰銀
 2850,新產
@@ -885,30 +564,18 @@
 2867,三商壽
 2880,華南金
 2881,富邦金
-2881A,富邦特
-2881B,富邦金乙特
-2881C,富邦金丙特
 2882,國泰金
-2882A,國泰特
-2882B,國泰金乙特
 2883,開發金
-2883B,開發金乙特
 2884,玉山金
 2885,元大金
 2886,兆豐金
 2887,台新金
-2887E,台新戊特
 2888,新光金
-2888A,新光金甲特
-2888B,新光金乙特
 2889,國票金
 2890,永豐金
 2891,中信金
-2891B,中信金乙特
-2891C,中信金丙特
 2892,第一金
 2897,王道銀行
-2897A,王道銀甲特
 2901,欣欣
 2903,遠百
 2904,匯僑
@@ -922,7 +589,7 @@
 2915,潤泰全
 2916,滿心
 2923,鼎固-KY
-2924,東凌-KY
+2924,宏太-KY
 2926,誠品生活
 2929,淘帝-KY
 2937,集雅社
@@ -948,6 +615,7 @@
 3015,全漢
 3016,嘉晶
 3017,奇鋐
+3018,隆銘綠能
 3019,亞光
 3021,鴻名
 3022,威強電
@@ -965,7 +633,6 @@
 3034,聯詠
 3035,智原
 3036,文曄
-3036A,文曄甲特
 3037,欣興
 3038,全台
 3040,遠見
@@ -977,13 +644,13 @@
 3046,建碁
 3047,訊舟
 3048,益登
-3049,和鑫
+3049,精金
 3050,鈺德
 3051,力特
 3052,夆典
 3054,立萬利
 3055,蔚華科
-3056,總太
+3056,富華新
 3057,喬鼎
 3058,立德
 3059,華晶科
@@ -1000,7 +667,6 @@
 3085,新零售
 3086,華義
 3088,艾訊
-3089,億杰
 3090,日電貿
 3092,鴻碩
 3093,港建*
@@ -1164,7 +830,6 @@
 3532,台勝科
 3533,嘉澤
 3535,晶彩科
-3536,誠創
 3537,堡達
 3540,曜越
 3541,西柏
@@ -1175,7 +840,7 @@
 3550,聯穎
 3551,世禾
 3552,同致
-3555,重鵬
+3555,博士旺
 3556,禾瑞亞
 3557,嘉威
 3558,神準
@@ -1244,7 +909,6 @@
 3694,海華
 3701,大眾控
 3702,大聯大
-3702A,大聯大甲特
 3703,欣陸
 3704,合勤控
 3705,永信
@@ -1258,8 +922,6 @@
 3713,新晶投控
 3714,富采
 3715,定穎投控
-399005.SZ,深證中小板指數
-399006&,創業板指
 4102,永日
 4104,佳醫
 4105,東洋
@@ -1281,9 +943,8 @@
 4127,天良
 4128,中天
 4129,聯合
-4129A,聯合甲特
 4130,健亞
-4131,晶宇
+4131,浩泰
 4132,國鼎
 4133,亞諾法
 4137,麗豐-KY
@@ -1297,7 +958,7 @@
 4154,樂威科-KY
 4155,訊映
 4157,太景*-KY
-4160,創源
+4160,訊聯基因
 4161,聿新科
 4162,智擎
 4163,鐿鈦
@@ -1330,6 +991,7 @@
 4402,福大
 4406,新昕纖
 4413,飛寶企業
+4414,如興
 4416,三圓
 4417,金洲
 4419,元勝
@@ -1387,6 +1049,7 @@
 4565,宏偉
 4566,時碩工業
 4568,科際精密
+4569,六方科-KY
 4571,鈞興-KY
 4572,駐龍
 4573,高明鐵
@@ -1401,6 +1064,7 @@
 4584,君帆
 4587,寶元數控
 4588,玖鼎電力
+4589,碩陽電機
 4609,唐鋒
 4702,中美實
 4706,大恭
@@ -1412,6 +1076,7 @@
 4720,德淵
 4721,美琪瑪
 4722,國精化
+4724,宣捷幹細胞
 4726,永昕
 4728,雙美
 4729,熒茂
@@ -1442,7 +1107,6 @@
 4772,台特化
 4773,高福
 4804,大略-KY
-4806,昇華
 4807,日成-KY
 4903,聯光通
 4904,遠傳
@@ -1472,6 +1136,7 @@
 4944,兆遠
 4945,陞達科技
 4946,辣椒
+4949,有成精密
 4950,牧東
 4951,精拓科
 4952,凌通
@@ -1651,7 +1316,6 @@
 5863,瑞興銀
 5864,致和證
 5871,中租-KY
-5871A,中租-KY甲特
 5876,上海商銀
 5878,台名
 5880,合庫金
@@ -1673,6 +1337,7 @@
 6028,公勝保經
 6035,悠遊卡
 6101,寬魚國際
+6103,合邦
 6104,創惟
 6108,競國
 6109,亞元
@@ -1694,7 +1359,7 @@
 6127,九豪
 6128,上福
 6129,普誠
-6130,星寶國際
+6130,上亞科技
 6133,金橋
 6134,萬旭
 6136,富爾特
@@ -1784,7 +1449,7 @@
 6233,旺玖
 6234,高僑
 6235,華孚
-6236,康呈
+6236,中湛
 6237,驊訊
 6239,力成
 6240,松崗
@@ -1794,7 +1459,6 @@
 6244,茂迪
 6245,立端
 6246,臺龍
-6247,淇譽電
 6248,沛波
 6257,矽格
 6259,百徽
@@ -1858,11 +1522,10 @@
 6462,神盾
 6464,台數科
 6465,威潤
-6468,網石
 6469,大樹
 6470,宇智
 6472,保瑞
-6473,好玩家*
+6473,美賣*
 6474,華豫寧
 6477,安集
 6482,弘煜科
@@ -1927,7 +1590,6 @@
 6572,博錸
 6573,虹揚-KY
 6574,霈方
-6575,心悅
 6576,逸達
 6577,勁豐
 6578,達邦蛋白
@@ -1944,9 +1606,7 @@
 6590,普鴻
 6591,動力-KY
 6592,和潤企業
-6592A,和潤企業甲特
 6593,台灣銘板
-6594,展匯科
 6595,光禹國際
 6596,寬宏藝術
 6597,立誠
@@ -2019,6 +1679,7 @@
 6698,旭暉應材
 6699,奇邑
 6703,軒郁
+6704,國璽幹細胞
 6705,振躍精密
 6706,惠特
 6707,富基電通
@@ -2030,7 +1691,9 @@
 6719,力智
 6720,久昌
 6721,信實
+6722,輝創
 6723,傑智環境
+6725,矽科宏晟
 6727,亞泰金屬
 6728,上洋
 6729,機光科技
@@ -2056,7 +1719,7 @@
 6754,匯僑設計
 6755,連鋐科技
 6756,威鋒電子
-6757,台灣虎航
+6757,台灣虎航-創
 6758,冠亞
 6761,穩得
 6762,達亞
@@ -2084,6 +1747,7 @@
 6794,向榮生技
 6796,晉弘
 6797,圓點奈米
+6798,展逸
 6799,來頡
 6803,崑鼎
 6804,明係
@@ -2132,14 +1796,15 @@
 6858,愛比科技
 6859,伯特光
 6861,睿生光電
+6863,永道-KY
 6864,元樟生技
 6865,偉康科技
 6867,坦德科技
 6868,采威國際
-6869,雲豹能源
+6869,雲豹能源-創
 6870,騰雲
 6872,浩宇生醫
-6873,泓德能源
+6873,泓德能源-創
 6874,倍力
 6875,國邑*
 6877,鏵友益
@@ -2149,6 +1814,7 @@
 6882,甲尚
 6884,海柏特
 6885,全福生技
+6886,遠東生技
 6891,樂迦再生
 6892,台寶生醫
 6894,衛司特
@@ -2156,30 +1822,59 @@
 6898,程曦資訊
 6899,創為精密
 6901,鑽石生技
+6902,走著瞧-創
 6903,巨漢
 6904,伯鑫
 6906,現觀科
 6908,宏碁遊戲
+6909,創控
+6910,德鴻
 6911,群運
 6912,益鈞環科*-新
 6913,鴻呈
 6914,阜爾運通
 6915,美強光
 6916,華凌
+6917,竟天
 6918,愛派司
 6919,康霈
-6922,宸曜-新
+6920,恆勁科技
+6922,宸曜
+6923,中台
 6925,意藍
 6926,聖安生醫
-6929,佑全-新
+6927,聯合聚晶
+6928,攸泰科技
+6929,佑全
 6931,青松健康
 6932,水星生醫*
-6937,天虹-新
+6935,王子製藥
+6936,永鴻生技
+6937,天虹
+6939,啟弘生技
+6940,格斯科技*
+6944,兆聯實業
+6945,圓祥生技
+6947,台鎔科技
+6951,青新
+6952,大武山
+6953,家碩
+6955,邦睿生技
+6958,日盛台駿
+6959,兆捷科技
+6961,旅天下
+6963,品元-新
+6968,萬達寵物
+6971,惠民實業-新
+6973,永立榮-新
+6976,育世博-KY
+6980,鐳洋科技-新
+6986,和迅-新
+6990,華鉬-新
 7402,邑錡
 7419,達勝
 7427,華上生醫
 7443,凡事康
-7452,乂迪生
 7507,環拓科技
 7516,清淨海
 7530,鋒魁科技
@@ -2189,13 +1884,16 @@
 7556,意德士
 7558,群利
 7561,光晟生技
+7562,博來科技-新
 7566,亞果遊艇
 7575,安美得
 7578,利百景
 7584,樂意
 7590,怡和國際
 7595,世基生醫
-7610,聯友金屬-新
+7607,通用幹細胞*-新
+7610,聯友金屬
+7631,聚賢研發-新
 8011,台通
 8016,矽創
 8021,尖點
@@ -2231,7 +1929,7 @@
 8074,鉅橡
 8076,伍豐
 8077,洛碁
-8080,永利聯合
+8080,印鉐
 8081,致新
 8083,瑞穎
 8084,巨虹
@@ -2255,7 +1953,6 @@
 8110,華東
 8111,立碁
 8112,至上
-8112A,至上甲特
 8114,振樺電
 8115,帝聞
 8119,公信
@@ -2268,7 +1965,6 @@
 8163,達方
 8171,天宇
 8176,智捷
-8179,旭德
 8182,加高
 8183,精星
 8201,無敵
@@ -2294,7 +1990,6 @@
 8341,日友
 8342,益張
 8349,恒耀
-8349A,恒耀甲特
 8354,冠好
 8358,金居
 8359,錢櫃
@@ -2337,7 +2032,6 @@
 8462,柏文
 8463,潤泰材
 8464,億豐
-8465,德河
 8466,美吉吉-KY
 8467,波力-KY
 8472,夠麻吉
@@ -2350,14 +2044,11 @@
 8487,愛爾達
 8488,吉源-KY
 8489,三貝德
-8490,利得
-8492,兔將
 8499,鼎炫-KY
 8905,裕國
 8906,花王
 8908,欣雄
 8916,光隆
-8916A,光隆甲特
 8917,欣泰
 8921,沈氏
 8923,時報
@@ -2379,14 +2070,8 @@
 8942,森鉅
 8996,高力
 9103,美德醫療-DR
-910322,康師傅-DR
 9105,泰金寶-DR
-910861,神州-DR
 9110,越南控-DR
-911608,明輝-DR
-911622,泰聚亨-DR
-911868,同方友友-DR
-912000,晨訊科-DR
 9136,巨騰-DR
 9802,鈺齊-KY
 9902,台火
@@ -2419,7 +2104,6 @@
 9939,宏全
 9940,信義
 9941,裕融
-9941A,裕融甲特
 9942,茂順
 9943,好樂迪
 9944,新麗
@@ -2433,923 +2117,3 @@
 9958,世紀鋼
 9960,邁達康
 9962,有益
-A,安捷倫科技公司 
-AAL,American Airlines Group 
-AAP,Advance Auto Parts 
-AAPL,蘋果公司 
-ABBV,AbbVie Inc 
-ABC,美源伯根公司 
-ABT,雅培公司 
-ACN,埃森哲公司 
-ADA,艾達幣
-ADBE,奧多比系統公司 
-ADI,美國模擬器件公司 
-ADM,阿徹 - 丹尼爾斯 - 米德蘭公司 
-ADP,自動資料處理公司 
-ADSK,歐特克公司 
-AEE,Ameren Corp 
-AEP,美國電力 
-AES,愛依斯全球電力公司 
-AEX,荷蘭指數
-AFL,Aflac Inc 
-AIG,美國國際集團 
-AIZ,安信龍公司 
-AJG,Arthur J. Gallagher &amp; Co 
-AKAM,阿卡麥科技公司 
-ALB,Albemarle Corp 
-ALGN,Align Technology 
-ALK,Alaska Air 
-ALL,Allstate Corp 
-ALLE,Allegion PLC 
-ALO,澳洲指數
-AMAT,應用材料公司 
-AMD,美國超微公司AMD 
-AME,Ametek Inc 
-AMGN,安進公司 
-AMP,阿默普萊斯金融 
-AMT,American Tower Corp 
-AMZN,亞馬遜公司 
-ANET,Arista Networks 
-ANSS,ANSYS 
-ANTM,Anthem Inc 
-AON,Aon PLC 
-AOS,A.O Smith Corp 
-APA,APA Corporation 
-APD,空氣化工產品有限公司 
-APH,安費諾公司 
-APTV,Aptiv PLC 
-ARE,Alexandria Real Estate Equities 
-ASX,日月光ADR
-ATO,Atmos Energy Corp 
-ATVI,動視公司 
-AUDJPY,澳幣兌日圓
-AUDUSD,澳幣兌美元
-AUO,友達ADR
-AUS10-YR,澳洲公債10年期
-AVB,艾芙隆海灣社區 
-AVGO,Broadcom Inc 
-AVY,Avery Dennison Corp 
-AWK,American Water Works Inc 
-AXP,美國運通公司 
-AZO,汽車區域公司 
-BA,Boeing Co 
-BAC,Bank of America Corp 
-BALL,波爾公司 
-BAX,巴克斯特國際公司 
-BBWI,Bath &amp; Body Works Inc. 
-BBY,百思買 
-BCH,比特幣現金
-BDX,碧迪公司 
-BEN,佛蘭克林資源公司 
-BFb,布朗福爾曼 
-BFX,比利時指數
-BIIB,百健 
-BIO,Bio-Rad Laboratories Inc 
-BK,紐約銀行梅隆公司 
-BKNG,Booking Holdings Inc 
-BKR,Baker Hughes Co 
-BLK,黑石公司 
-BMY,百時美施貴寶 
-BNB,幣安幣
-BR,Broadridge Financial Solutions 
-BRENT,布蘭特原油
-BRKb,伯克希爾·哈撒韋公司 
-BRO,Brown &amp; Brown Inc 
-BRZ10-YR,巴西公債10年期
-BSX,Boston Scientific Corp 
-BTC,比特幣
-BVSP,巴西指數
-BWA,柏格華納 
-BXP,波士頓地產 
-C,花旗集團 
-C1CT&,棉花
-CAC,法國指數
-CAG,康尼格拉食品 
-CAH,卡地納健康公司 
-CAN10-YR,加拿大公債10年期
-CARR,Carrier Global Corp 
-CAT,卡特彼勒公司 
-CB,Chubb Ltd 
-CBOE,Cboe Global Markets Inc 
-CBRE,CBRE Group Inc Class A 
-CCI,Crown Castle International Corp 
-CCL,嘉年華郵輪 
-CDAY,Ceridian HCM Holding Inc 
-CDNS,Cadence Design Systems Inc 
-CDW,CDW Corp 
-CE,Celanese 
-CEG,Constellation Energy Corp 
-CF,CF 工業控股 
-CFG,Citizens Financial Group Inc 
-CHD,Church &amp; Dwight 
-CHRW,CH羅賓遜全球公司 
-CHT,中華電信ADR
-CHTR,Charter Communications 
-CI,Cigna Corp 
-CINF,辛辛那提金融公司 
-CL,高露潔公司 
-CLX,高樂氏 
-CMA,Comerica Inc 
-CMCSA,Comcast Corp 
-CME,CME 集團 
-CMG,契普多墨西哥餐廳 
-CMI,康明斯 
-CMS,CMS 能源公司 
-CNC,Centene Corp 
-CNP,中點能源公司 
-COF,第一資本金融公司 
-COO,Cooper Companies Inc 
-COP,康菲石油 
-COPPER,銅
-CORN,玉米
-COST,好市多 
-CPB,金寶湯公司 
-CPRT,Copart Inc 
-CPT,Camden Property Tr 
-CRL,Charles River Laboratories Intl 
-CRM,Salesforce.com 
-CSCO,思科系統公司 
-CSX,CSX 公司 
-CTAS,辛塔斯公司 
-CTLT,Catalent Inc 
-CTRA,Coterra Energy Inc 
-CTSH,Cognizant Technology Solutions Corp Class A 
-CTVA,Corteva Inc 
-CVS,CVS Health Corp 
-CVX,Chevron Corp 
-CZR,Caesars Entertainment Corp 
-D,道明尼能源 
-DAL,達美航空 
-DAX,德國指數
-DD,Dupont De Nemours Inc 
-DE,迪爾公司 
-DFS,發現金融服務公司 
-DG,達樂公司 
-DGX,奎斯特診斷公司 
-DHI,霍頓 D.R.公司 
-DHR,丹納赫公司 
-DIS,沃爾特迪士尼公司 
-DISH,DISH Network Corp 
-DJI,道瓊指數
-DJT,道瓊交通運輸
-DJU,道瓊公用事業
-DLR,Digital Realty Trust Inc 
-DLTR,美元樹公司 
-DOGE,狗狗幣
-DOT,波卡幣
-DOV,多佛公司 
-DOW,Dow Inc 
-DPZ,Domino’s Pizza Inc 
-DRI,達登餐飲公司 
-DTE,DTE 能源公司 
-DUK,杜克能源公司 
-DVA,達維塔保健 
-DVN,代文能源公司 
-DXC,DXC Technology Co 
-DXCM,DexCom 
-EA,藝電 
-EBAY,eBay 
-ECL,藝康公司 
-ED,綜合愛迪生公司 
-EFX,艾可飛公司 
-EIX,愛迪生國際 
-EL,雅思蘭黛 
-EMN,伊士曼化工公司 
-EMR,愛默生電氣 
-ENPH,Enphase Energy Inc 
-EOG,依歐格資源 
-EPAM,Epam Systems Inc 
-EQIX,Equinix 
-EQR,住宅地產 
-ES,Eversource Energy 
-ESS,Essex Property Trust Inc 
-ETC,乙太經典幣
-ETH,乙太幣
-ETN,伊頓公司 
-ETR,安特吉公司 
-ETSY,Etsy Inc 
-EURCHF,歐元兌瑞郎
-EURGBP,歐元兌英鎊
-EURJPY,歐元兌日圓
-EURUSD,歐元兌美元
-EVRG,Evergy Inc 
-EW,Edwards Lifesciences Corp 
-EXC,愛克斯龍公司 
-EXPD,Expeditors International of Washington Inc 
-EXPE,Expedia公司 
-EXR,Extra Space Storage 
-F,福特汽車公司 
-FANG,Diamondback Energy Inc 
-FAST,法森納爾公司 
-FB,Meta Platforms Inc 
-FBHS,Fortune Brands Home &amp; Security 
-FCX,自由港麥克莫蘭銅金公司 
-FDS,FactSet Research Systems Inc 
-FDX,聯邦快遞公司 
-FE,第一能源公司 
-FFIV,F5網路公司 
-FIS,Fidelity National Information Services Inc 
-FISV,費哲金融服務公司 
-FITB,五三銀行公司 
-FLT,Fleetcor Technologies Inc 
-FMC,FMC 公司 
-FOX,Fox Corp Class B 
-FOXA,Fox Corp Class A 
-FRA10-YR,法國公債10年期
-FRC,First Republic Bank 
-FRT,Federal Realty Investment Trust 
-FTE,歐洲指數
-FTH,英國指數
-FTNT,Fortinet 
-FTV,Fortive Corp 
-GBPUSD,英鎊兌美元
-GCQ2,黃金
-GD,通用動力公司 
-GE,通用電氣公司 
-GER10-YR,德國公債10年期
-GILD,吉利德科學公司 
-GIS,通用磨坊公司 
-GL,Globe Life Inc 
-GLW,康寧公司 
-GM,通用汽車 
-GNRC,Generac Holdings 
-GOLD,黃金
-GOOG,Alphabet Inc Class C 
-GOOGL,Alphabet Inc Class A 
-GPC,Genuine Parts Co 
-GPN,Global Payments 
-GRMN,Garmin Ltd 
-GS,高盛集團 
-GWW,格蘭傑公司 
-HAL,哈裡伯頓公司 
-HAS,孩之寶公司 
-HBAN,亨廷頓銀行 
-HCA,HCA Holdings Inc 
-HD,家得寶公司 
-HES,赫斯公司 
-HIG,哈特福德金融服務公司 
-HII,Huntington Ingalls Industries Inc 
-HLT,Hilton Worldwide Holdings Inc 
-HNHPF,鴻海ADR
-HNI,河內指數
-HOLX,Hologic 
-HON,霍尼韋爾國際公司 
-HPE,Hewlett Packard Enterprise Co 
-HPQ,HP Inc 
-HRL,荷美爾食品公司 
-HSIC,亨利香恩 
-HST,萬豪酒店 
-HSY,Hershey Co 
-HUM,哈門那醫療保健公司 
-HWM,Howmet Aerospace Inc 
-IBM,國際商業機器股份有限公司 
-ICE,Intercontinental Exchange Inc 
-IDXX,IDEXX Laboratorie 
-IEX,IDEX 
-IFF,International Flavors &amp; Fragrances Inc 
-ILMN,Illumina Inc 
-INCY,Incyte Corp 
-INTC,英特爾公司 
-INTU,直覺公司 
-IOTA,Miota
-IP,International Paper 
-IPG,埃培智集團 
-IPGP,IPG Photonics Corp 
-IQV,IQVIA Holdings Inc 
-IR,Ingersoll Rand Inc 
-IRM,鐵山公司 
-IRT,俄羅斯指數
-ISRG,直覺外科公司 
-IT,Gartner 
-ITA10-YR,義大利公債10年期
-ITW,伊利諾斯工具公司 
-IVZ,景順投資管理公司 
-J,雅各工程集團 
-JAI,雅加達
-JBHT,J.B. Hunt Transport Services Inc 
-JCI,Johnson Controls International PLC 
-JKHY,Jack Henry &amp; Asso 
-JNJ,強生公司 
-JNPR,瞻博網路公司 
-JPM,摩根大通銀行公司 
-JPN10-YR,日本公債10年期
-K,凱洛格公司 
-KEY,科凱國際 
-KEYS,Keysight Technologies Inc 
-KHC,Kraft Heinz Co 
-KIM,金科房地產 
-KLAC,科磊公司 
-KMB,金佰利公司 
-KMI,Kinder Morgan 
-KMX,車美仕公司 
-KO,可口可樂 
-KOR,韓國綜合
-KR,克羅格公司 
-KS200,KOSPI200
-L,Loews Corp 
-LDOS,科学应用国际公司 
-LEN,萊納公司 
-LH,Laboratory Corporation of America Holdings 
-LHX,L3Harris Technologies Inc 
-LIN,Linde PLC 
-LINK,Chainlink
-LKQ,LKQ 
-LLY,禮來製藥 
-LMT,洛克希德馬丁公司 
-LNC,林肯國民公司 
-LNT,Alliant Energy Corp 
-LOW,勞氏公司 
-LRCX,泛林集團 
-LTC,萊特幣
-LUMN,Lumen Technologies Inc 
-LUNA,Terra
-LUV,西南航空公司 
-LVS,Las Vegas Sands 
-LW,Lamb Weston Holdings Inc 
-LYB,利安德巴塞爾工業公司 
-LYV,Live Nation Entertainment Inc 
-MA,萬事達卡 
-MAA,Mid-America Apartment Communities Inc 
-MAR,Marriott International Inc 
-MAS,馬斯公司 
-MCD,麥當勞公司 
-MCHP,Microchip Technology Inc 
-MCK,麥克森公司 
-MCO,穆迪公司 
-MDLZ,億滋國際 
-MDT,Medtronic PLC 
-MET,大都會人壽保險公司 
-MGM,MGM Resorts International 
-MHK,Mohawk Industries 
-MKC,麥考密克公司 
-MKTX,MarketAxess Holdi 
-MLM,Martin Marietta Materials Inc 
-MMC,威達信 
-MMM,3M公司 
-MNST,Monster Beverage Corp 
-MO,奧馳亞集團 
-MOH,Molina Healthcare Inc 
-MOS,The Mosaic Company 
-MPC,Marathon Petroleum Corp 
-MPWR,Monolithic Power 
-MRK,默克公司 
-MRNA,Moderna Inc 
-MRO,馬拉松石油公司 
-MS,摩根士丹利 
-MSCI,MSCI Inc 
-MSFT,微軟公司 
-MSI,摩托羅拉系統 
-MTB,M&amp;T Bank Corp 
-MTCH,Match Group Inc 
-MTD,Mettler-Toledo International Inc 
-MU,美光科技公司 
-NAS,NASDAQ
-NBI,NBI生技
-NCLH,Norwegian Cruise Line Holdings Ltd 
-NDAQ,Nasdaq Inc 
-NDSN,Nordson Corp 
-NEE,Nextera Energy Inc 
-NEM,Newmont Goldcorp Corp 
-NFLX,奈飛公司 
-NI,尼索思公司 
-Nickel&,鎳
-NKE,耐克公司 
-NLOK,NortonLifeLock Inc 
-NOC,諾斯羅普格魯門公司 
-NOW,ServiceNow Inc 
-NRG,NRG 能源公司 
-NSC,諾福克南方鐵路公司 
-NSEI,印度Nifty指數
-NTAP,網路應用公司 
-NTRS,北方信託 
-NUE,Nucor Corp 
-NVDA,英偉達公司 
-NVR,NVR Inc 
-NWL,Newell Brands Inc 
-NWS,Twenty-First Century Fox Inc 
-NWSA,News Corp A 
-NXPI,恩智浦半導體 
-NYA,紐約證交所NYSE
-NYFN2,燃油
-NZDUSD,紐元兌美元
-O,Realty Income Corp 
-ODFL,Old Dominion Freight Line Inc 
-OGN,Organon &amp; Co 
-OKE,萬歐公司 
-OMC,宏盟集團 
-ORCL,甲骨文公司 
-ORLY,O’Reilly Automotive Inc 
-OTIS,Otis Worldwide Corp 
-OXY,西方石油公司 
-PARA,Paramount Global Class B 
-PAU2,鈀
-PAYC,Paycom Soft 
-PAYX,沛齊公司 
-PCAR,帕卡公司 
-PEAK,Healthpeak Properties Inc 
-PEG,Public Service Enterprise Group Inc 
-PENN,Penn National Gaming Inc 
-PEP,百事公司 
-PFE,輝瑞公司 
-PFG,信安金融集團 
-PG,寶潔公司 
-PGR,Progressive Corp 
-PH,派克漢尼汾公司 
-PHM,普爾特集團 
-PKG,Packaging Corp of America 
-PKI,珀金埃爾默公司 
-PLD,Prologis Inc 
-PLN2,白金
-PM,菲力浦莫里斯國際公司 
-PNC,PNC 金融服務集團 
-PNR,Pentair PLC 
-PNW,Pinnacle West Capital Corp 
-POOL,Pool Corp 
-PPG,PPG 工業公司 
-PPL,PPL 公司 
-PRU,保德信金融公司 
-PSA,公共倉儲 
-PSX,Phillips 66 Ltd 
-PTC,Parametric Techno 
-PVH,Pvh集團 
-PWR,廣達服務 
-PXD,Pioneer Natural Resources Co 
-PYPL,PayPal Holdings Inc 
-QCOM,高通公司 
-QRVO,Qorvo Inc 
-RCL,Royal Caribbean 
-RE,Everest Re Group Ltd 
-REG,Regency Centers Corp 
-REGN,Regeneron Pharmaceuticals Inc 
-RF,地區金融公司 
-RHI,羅伯特半國際公司 
-RJF,Raymond James Financial Inc 
-RL,Ralph Lauren Corp Class A 
-RMD,ResMed Inc 
-ROK,羅克韋爾自動化公司 
-ROL,Rollins Inc 
-ROP,Roper Technologies Inc 
-ROST,羅斯百貨 
-RRN2,稻米
-RSG,共和國服務公司 
-RTX,Raytheon Technologies Corp 
-RVN,烏鴉幣
-SBAC,SBA Communications Corp 
-SBNY,Signature Bank 
-SBUX,星巴克公司 
-SCHW,Charles Schwab Corp 
-SEDG,SolarEdge Technologies Inc 
-SEE,希悅爾公司 
-SEN,印度指數
-SET,泰國SET
-SFCI,A50指數
-SHA180,上證180
-SHW,Sherwin-Williams Co 
-SILVER,白銀
-SIVB,SVB Financial Gro 
-SJM,斯馬克公司 
-SKEWX,黑天鵝指數
-SLB,斯倫貝謝有限公司 
-SNA,Snap-On Inc 
-SNPS,Synopsys Inc 
-SO,南方公司 
-SOL,Solana
-SOX,費城半導體
-SOYBEAN,黃豆
-SP5,S&P500
-SPG,西蒙地產集團 
-SPGI,S&amp;P Global Inc 
-SRE,桑普拉能源 
-STE,STERIS plc 
-STT,State Street Corp 
-STX,Seagate Technology PLC 
-STZ,Constellation Brands Inc Class A 
-SUGAR,11號糖
-SWK,史坦萊百得 
-SWKS,Skyworks Solutions Inc 
-SYF,Synchrony Financial 
-SYK,史賽克公司 
-SYY,西斯科公司 
-T,美國電話電報公司 
-TAP,Molson Coors Brewing Co Class B 
-TDG,Transdigm Group Inc 
-TDY,Teledyne Technologies Inc 
-TECH,Bio-Techne Corp 
-TEL,泰科電子 
-TER,泰瑞达公司 
-TFC,Truist Financial Corp 
-TFX,Teleflex Inc 
-TGT,塔吉特公司 
-TJX,TJX 公司 
-TMO,賽默飛世爾科技 
-TMUS,T-Mobile US Inc 
-TPR,Tapestry Inc 
-TPX,東證一部
-TRMB,Trimble Inc 
-TROW,T. Rowe Price Group Inc 
-TRV,旅行者財產險集團（Travelers) 
-TSCO,Tractor Supply Company 
-TSLA,Tesla Inc 
-TSM,台積電ADR
-TSN,泰森食品 
-TT,Trane Technologies plc 
-TTWO,Take-Two Interactive 
-TWO,櫃檯指數
-TXN,德州儀器 
-TXT,德事隆公司 
-TYL,Tyler Technologies Inc 
-UA,Under Armour Inc C 
-UAA,Under Armour Inc A 
-UAL,United Airlines Holdings Inc 
-UDR,UDR Inc 
-UHS,環球健康服務公司 
-UK10-YR,英國公債10年期
-ULTA,Ulta Beauty Inc 
-UNH,聯合保健集團 
-UNI,Uniswap
-UNP,聯合太平洋公司 
-UPS,聯合包裹運送服務公司 
-URI, 聯合租賃公司 
-US10-YR,美國公債10年期
-US20-YR,美國公債20年期
-US2-YR,美國公債2年期
-US30-YR,美國公債30年期
-US5-YR,美國公債5年期
-USB,U.S. Bancorp 
-USDCAD,美元兌加幣
-USDCHF,美元兌瑞郎
-USDCNY,美元兌人民幣
-USDINDEX,美元指數
-USDJPY,美元兌日圓
-USDTWD,美元兌台幣
-V,Visa Inc Class A 
-VFC,VF 公司 
-VIX,S&P500 VIX
-VIXTWN,臺指選擇權波動率指數
-VLO,瓦萊羅能源 
-VMC,火神材料 
-VNI,越南指數
-VNO,沃納多房地產信託 
-VRSK,Verisk Analytics Inc 
-VRSN,威瑞信公司 
-VRTX,Vertex Pharmaceuticals Inc 
-VTR,芬塔公司 
-VTRS,Viatris Inc 
-VZ,威瑞森通訊公司 
-WAB,Westinghouse Air Brake Technologies Corp 
-WAT,沃特世公司 
-WBA,Walgreens Boots Alliance Inc 
-WBD,Warner Bros Discovery Inc 
-WBR&,布蘭特原油期貨近一
-WBR02,布蘭特原油期貨近二
-WBRG3,布蘭特原油2302
-WBRH3,布蘭特原油2303
-WBRJ3,布蘭特原油2304
-WBRM&,布蘭特原油期貨合併
-WBRM02,布蘭特原油期貨近二合併
-WBRP&,布蘭特原油期貨盤後
-WBRP02,布蘭特原油期貨近二盤後
-WBT&,生技期
-WBT00,生技期現貨
-WBT02,生技期近二
-WBTF3,生技期2301
-WBTG3,生技期2302
-WDC,西部數據 
-WEC,WEC Energy Group Inc 
-WELL,Welltower Inc 
-WF1H3,富時1002303
-WF1M3,富時1002306
-WFC,富國銀行 
-WG2&,富櫃200期貨近一
-WG200,富櫃200現貨
-WG202,富櫃200期貨近R
-WG2F3,富櫃2002301
-WG2G3,富櫃2002302
-WGD&,黃金期貨
-WGD02,黃金期貨近二
-WGDG3,黃金期2302
-WGDJ3,黃金期2304
-WGDM&,黃金期貨合併
-WGDM02,黃金期貨近二合併
-WGDP&,黃金期貨盤後
-WGDP02,黃金期貨近二盤後
-WGDZ2,黃金期2212
-WGT&,櫃買期貨
-WGT00,櫃買期現貨
-WGT02,櫃買期貨近二
-WGTF3,櫃買期2301
-WGTG3,櫃買期2302
-WHR,惠而浦公司 
-WM,廢物處理公司 
-WMB,威廉姆斯公司 
-WMT,沃爾瑪百貨公司 
-WMT&,小型台指
-WMT00,小型台指現貨
-WMT02,小型台指近二
-WMTF3,小型台指2301
-WMTG3,小型台指2302
-WMTH3,小型台指2303
-WMTM&,小型台指合併
-WMTM02,小型台指近二合併
-WMTM3,小型台指2306
-WMTP&,小型台指盤後
-WMTP02,小型台指近二盤後
-WMTU3,小型台指2309
-WMTZ3,小型台指2312
-WRB,W. R. Berkley Corp 
-WRH&,美元兌人民幣期貨
-WRHF3,RHF-民2301
-WRHM&,美元兌人民幣期貨合併
-WRHP&,美元兌人民幣期貨盤後
-WRK,WestRock Co 
-WRT&,小型美元兌人民幣期貨
-WRT00,RTF-小現貨
-WRT02,小型美元兌人民幣期貨近二
-WRTF3,RTF-小2301
-WRTG3,RTF-小2302
-WRTH3,RTF-小2303
-WRTM&,小型美元兌人民幣期貨合併
-WRTM02,小型美元兌人民幣期貨近二合併
-WRTM3,RTF-小2306
-WRTP&,小型美元兌人民幣期貨盤後
-WSP&,美國標普500期貨
-WSP02,美國標普500期貨近二
-WSPH3,標普5002303
-WSPM&,美國標普500期貨合併
-WSPM02,美國標普500期貨近二合併
-WSPM3,標普5002306
-WSPP&,美國標普500期貨盤後
-WSPP02,美國標普500期貨近二盤後
-WST,West Pharmaceutical Services Inc 
-WT500,台指50現貨
-WTE&,電子期
-WTE00,電子期現貨
-WTE02,電子期近二
-WTEF3,電子期2301
-WTEG3,電子期2302
-WTEM&,電子期合併
-WTEM02,電子期近二合併
-WTEP&,電子期盤後
-WTEP02,電子期近二盤後
-WTF&,金融期
-WTF00,金融期現貨
-WTF02,金融期近二
-WTFF3,金融期2301
-WTFG3,金融期2302
-WTFH3,金融期2303
-WTG&,台幣黃金期貨
-WTG02,台幣黃金期貨近二
-WTGG3,黃金NT2302
-WTGJ3,黃金NT2304
-WTGM&,台幣黃金期貨合併
-WTGM02,台幣黃金期貨近二合併
-WTGP&,台幣黃金期貨盤後
-WTGP02,台幣黃金期貨近二盤後
-WTGZ2,黃金NT2212
-WTI,WTI西德州原油
-WTJ&,日本東證期貨
-WTJ00,東證期現貨
-WTJ02,日本東證期貨近二
-WTJF3,東證期2301
-WTJG3,東證期2302
-WTW,Willis Towers Watson PLC 
-WTX&,台指期
-WTX00,台指期現貨
-WTX02,台指期近二
-WTXF3,台指期2301
-WTXG3,台指期2302
-WTXH3,台指期2303
-WTXM&,台指期合併
-WTXM02,台指期近二合併
-WTXM3,台指期2306
-WTXP&,台指期盤後
-WTXP02,台指期近二盤後
-WTXU3,台指期2309
-WTXZ3,台指期2312
-WUD&,美國道瓊期貨
-WUD02,美國道瓊期貨近二
-WUDH3,道瓊期2303
-WUDM&,美國道瓊期貨合併
-WUDM02,美國道瓊期貨近二合併
-WUDM3,道瓊期2306
-WUDP&,美國道瓊期貨盤後
-WUDP02,美國道瓊期貨近二盤後
-WUN&,那斯達克100期貨近一
-WUN02,那斯達克100期貨近二
-WUNH3,那斯達克1002303
-WUNM&,那斯達克100期貨近一合併
-WUNM02,那斯達克100期貨近二合併
-WUNM3,那斯達克1002306
-WUNP&,那斯達克100期貨近一盤後
-WUNP02,那斯達克100期貨近二盤後
-WXA&,澳幣兌美元期貨近一
-WXA02,澳幣兌美元期貨近二
-WXAH3,澳兌美2303
-WXAM&,澳幣兌美元期貨近一合併
-WXAM02,澳幣兌美元期貨近二合併
-WXAM3,澳兌美2306
-WXAP&,澳幣兌美元期貨近一盤後
-WXAP02,澳幣兌美元期貨近二盤後
-WXB&,英鎊兌美元期貨
-WXBH3,英兌美2303
-WXBM&,英鎊兌美元期貨合併
-WXBP&,英鎊兌美元期貨盤後
-WXE&,歐元兌美元期貨
-WXEH3,歐兌美2303
-WXEM&,歐元兌美元期貨合併
-WXEP&,歐元兌美元期貨盤後
-WXI&,非電金期貨
-WXI00,非金電現貨
-WXI02,非電金期貨近二
-WXIF3,非金電2301
-WXIG3,非金電2302
-WXJ&,美元兌日圓期貨
-WXJ02,美元兌日圓期貨近二
-WXJH3,美兌日2303
-WXJM&,美元兌日圓期貨合併
-WXJM02,美元兌日圓期貨近二合併
-WXJM3,美兌日2306
-WXJP&,美元兌日圓期貨盤後
-WXJP02,美元兌日圓期貨近二盤後
-WY,惠好公司 
-WYNN,永利度假村有限公司 
-XAU,費城金銀
-XEL,傲賽能源公司 
-XLM,恆星幣
-XOM,Exxon Mobil Corp 
-XRAY,Dentsply Sirona Inc 
-XRP,瑞波幣
-XYL,Xylem 
-YUM,百勝餐飲 
-ZBH,Zimmer Biomet Holdings Inc 
-ZBRA,Zebra Tech 
-ZION,錫安控股 
-ZTS,Zoetis Inc 
-A50F,A50期貨
-AA,Alcoa Inc
-ADT,ADT Corp
-AET,美國安泰保險金融集團
-AIV,Apartment Investment & Mgmt
-ALTR,阿爾特
-AMG,Affiliated Managers Group Inc
-AN,AutoNation Inc
-ANF,A&F公司
-ASH,Ashland Inc.
-ATI,阿勒格尼技術公司
-AZN,阿斯利康
-B1W&,小麥
-B1YM&,MIN道瓊期
-BABA,Alibaba
-BALTICDRY,乾散貨BDI
-BBBY,Bed Bath & Beyond
-BCI,海岬型BCI
-BF.B,布朗霍文公司
-BPI,巴拿馬型BPI
-BRK.B,伯克希爾－哈撒韋公司
-BRZ1-YR,巴西公債1年期
-BSI,超輕便型BSI
-C1CC&,可可
-C1KC&,咖啡
-CAN20-YR,加拿大公債20年期
-CHK,Chesapeake Energy
-CLF,克里夫天然資源公司
-CNX,康壽能源公司
-CSC,電腦科學
-CSIQ,阿特斯
-CSRA,CSRA Inc.
-CTIB,CTI
-CXO,Concho Resources
-DISCA,Discovery Communications-A
-DJC,道瓊綜合指數
-DNB,鄧白氏公司
-DNR,丹博里資源公司
-DO,鑽石離海探鑽公司
-DV,德銳公司
-ENDP,Endo International
-EQT,EQT公司
-ETM,Entercom
-FHN,第一地平線全國公司
-FII,聯合投資公司
-FLR,福陸公司
-FLS,福斯流量控制設備公司
-FPL,FPL集團
-FSLR,第一太陽能
-FTI,FMC鑽探設備公司
-GCI,甘尼特報業
-GGP,GGP INC.
-GME,Gamestop公司
-GNW,Genworth金融公司
-GPS,蓋璞服飾
-GSK,葛蘭素史克藥廠
-GT,固特異輪胎與橡膠
-HCP,HCP公司
-HOG,哈雷摩托車
-HRB,H＆R布洛克稅務公司
-HSC,香港國企
-HSCC,紅籌指數
-HSI,恆生指數
-HUI,AMEX金蟲
-IBO,巴西指數
-IGT,國際娛樂科技
-ITT,ITT 工業
-JBL,傑碧電路公司
-JCO&,原油
-JEC,嘉科工程集團
-JRU&,橡膠
-JWN,諾德斯特龍百貨公司
-K1NM&,小日經
-KSS,柯爾百貨公司
-LEG,禮恩派公司
-LIFE,Life Technologies
-LLL,L-3通訊控股有限公司
-LN,Line Corp(ADR)
-LTW50,臺灣50指數
-M,梅西百貨公司
-M1AD&,澳幣期貨
-M1BP&,英鎊期貨
-M1CD&,加幣期貨
-M1EC&,歐元期貨
-M1ECM&,微型歐元期貨
-M1ES&,EM-S&P期
-M1JY&,日圓期貨
-M1NE&,紐元期貨
-M1NQ&,EM-ND期
-M1SF&,瑞法郎期貨
-MAC,Macerich
-MAL,吉隆坡
-MAT,Mattel Inc.
-MNK,Mallinckrodt Plc
-MON,孟山都公司
-MUR,墨菲石油公司
-N1NG&,天然氣
-NAVI,Navient
-NBR,納伯斯工業鑽探設備公司
-NFX,Newfield Exploration Co
-NKI,日經指數
-NOV,國民油井華高公司
-NSM,Nationstar Mortgage Holdings Inc.
-NYT,時代雜誌
-O1GCZ1,黃金期
-OI,歐文斯伊利諾斯公司
-OIL,紐約輕原油
-PBI,必能寶公司
-PCG,太平洋電力瓦斯
-PDCO,帕特森公司
-PRGO,Perrigo
-PX,Praxair Inc.
-Q,Qwest Communications Int
-R,Ryder System
-RIG,Transocean
-RRC,Range Resources Corp.
-RTN,Raytheon Co.
-RUA,羅素3000
-RUI,羅素1000
-RUT,羅素2000
-S,Sprint Nextel Corp.
-S2TWZ1,摩台指
-SAIC,SAIC
-SE,Spectra Energy Corp.
-SHA,上海Ａ股
-SHB,上海Ｂ股
-SHI,上證指數
-SHSZ300,滬深300
-SIAL,Sigma-Aldrich
-SIG,Signet Jewelers
-SIMO,慧榮科技
-SLG,SL Green Realty
-SLM,SLM Corporation
-SNI,Scripps Networks Interactive Inc.
-SRCL,Stericycle Inc
-SSE50,上證50指數
-SSM,瑞士市指
-SSP,E.W.
-STJ,St Jude Medical
-STM,意法半導體
-STR,新加坡
-STWN&,富台指
-SUN,Sunoco Inc.
-SWN,Southwestern Energy
-SYMC,賽門鐵克
-SZA,深圳Ａ股
-SZB,深圳Ｂ股
-SZI,深圳綜合
-SZSC1,深證成指
-TDC,Teradata Corp.
-TE,TECO Energy
-TEDSP,泰德價差
-TGNA,Tegna
-THC,Tenet Healthcare Corp.
-TMK,Torchmark Corp.
-TRIP,TripAdvisor
-TSS,Total System Services
-TWC,Time Warner Cable Inc.
-UMC,聯電ADR
-UNM,Unum Group
-URBN,Urban Outfitters
-USDIDXFUT,美元期貨
-WGTZ1,櫃買期
-WU,Western Union Co
-WYN,Wyndham Worldwide
-X,United States Steel Corp.
-XRX,全錄
-ZMH,Zimmer Holdings

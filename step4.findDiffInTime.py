@@ -56,6 +56,15 @@ df_combined3 = df_combined3[['time', 'stockId', '中文名稱']]
 # print(df_combined3)
 df_combined3.to_csv(csv_file_path, index=False, sep='\t')
 
+# 每天只要匯入同一個檔案就好
+ss= ""
+df4 = df_combined3["stockId"].tolist()
+for d in df4:
+  ss += f"{d}.TW,"
+fm.write_LogFile(f"{rootpath}/xq_import_today/{last_date}_量比大.csv", ss)
+
+
+
 js_file_path = f"{rootpath}/xq_import/turnover_{last_date}.json"
 
 # 打开 JavaScript 文件以写入数据

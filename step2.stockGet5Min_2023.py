@@ -105,7 +105,7 @@ dfc1 = dfc[ (dfc["low"] > dfc["yHigh"]) & (dfc["close"] > dfc["yHigh"])] # & (df
 ## 策略2:找出周轉率高  
 ## 20230907:預估量大於5000張
 ## 20230907:振福小於4%
-dfc2 = dfc[ (dfc["yVolume"] > 400) & (dfc["close"] < 400) & (dfc["amp"] > 0.3) & (dfc["量比"] > 1) & (dfc["周轉率"] > 1) & (dfc["預估量"] > 2000 ) ]
+dfc2 = dfc[ (dfc["yVolume"] > 400) & (dfc["close"] < 400) & (dfc["amp"] > 0.3) & (dfc["量比"] > 1.5) & (dfc["預估量"] > 2000 ) ] # & (dfc["周轉率"] > 1)]
 
 df1a = dfc1.loc[:, ["id","market","name","yClose","low","previousClose","open","close","jump","amp","jumpRate","yVolume","預估量","量比","週量比","月量比","季量比","半年量比","年量比","周轉率","量比周轉"]].sort_values("半年量比", ascending=False)
 df2a = dfc2.loc[:, ["id","market","name","yClose","low","previousClose","open","close","jump","amp","jumpRate","yVolume","預估量","量比","週量比","月量比","季量比","半年量比","年量比","周轉率","量比周轉"]].sort_values("周轉率", ascending=False)

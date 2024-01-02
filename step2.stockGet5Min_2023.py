@@ -112,12 +112,12 @@ df2a = dfc2.loc[:, ["id","market","name","yClose","low","previousClose","open","
 # display(df1a)
 # display(df2a)
 
-s1 ,s2 , o_nowDate, o_nowTime = '', '', time.strftime("%m%d", time.localtime()) , time.strftime("%m%d_%H%M", time.localtime())
+s1 ,s2 , o_nowDate, o_nowTime = '', '', time.strftime("%Y%m%d", time.localtime()) , time.strftime("%Y%m%d_%H%M", time.localtime())
 
 df3 = df1a["id"].tolist()
 for d in df3:
   s1 += f"{d}.TW,"
-fm.write_LogFile(f"{rootpath}xq_import/趨勢扭轉2023{o_nowDate}_跳空.csv", s1)
+fm.write_LogFile(f"{rootpath}xq_import/趨勢扭轉{o_nowDate}_跳空.csv", s1)
 
 
 df4 = df2a["id"].tolist()
@@ -125,7 +125,7 @@ df4 = df2a["id"].tolist()
 for d in [item for item in df4 if item not in df3]:         # PROD
 # for d in df41:
   s2 += f"{d}.TW,"
-fm.write_LogFile(f"{rootpath}xq_import/量價型態2023{o_nowTime}_量比大.csv", s2)
+fm.write_LogFile(f"{rootpath}xq_import/量價型態{o_nowTime}_量比大.csv", s2)
 
 
 # #------------------------------------------------------

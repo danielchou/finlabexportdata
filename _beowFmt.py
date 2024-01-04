@@ -189,3 +189,12 @@ def getLast2FileDate(directory, trimStr):
     lastFileDate = max_filename.removeprefix(trimStr) #例如：ma_20230622 只取出20230622
     print("次新的檔案日期：", lastFileDate)
     return lastFileDate
+
+
+def lastFinlabStockIdList(positionData):
+    dff = positionData.iloc[-1:].transpose()
+    dff["stock"] = dff.index
+    dff.columns = ["val", "stock"]
+    df2 = dff[ (dff["val"] == True) & (dff["stock"].str.len() == 4)].dropna(axis = 0, how ='any')
+    # print(df2)
+    return df2.index.tolist()

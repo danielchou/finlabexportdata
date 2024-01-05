@@ -1,4 +1,5 @@
 import ftplib
+import time
 
 def upload_file_to_ftp(hostname, username, password, local_file_path, remote_file_path):
     try:
@@ -23,12 +24,13 @@ def upload_file_to_ftp(hostname, username, password, local_file_path, remote_fil
 
 # 設定遠端主機的FTP資訊
 hostname = 'win5181.site4now.net'
-username = 'danielchou-beow'
-password = 'BBand#22'
+username = 'danielchou-beow2'
+password = 'Apple005'
 
 # 設定本地檔案路徑和遠端檔案路徑
-local_file_path = 'D:/project/finlabexportdata/xq_import/AAA_20230712_1242.csv'
-remote_file_path = '/xq_import/AAA_20230712_1242.csv'
+o_nowDate = time.strftime("%Y%m%d", time.localtime()) 
+local_file_path = f"D:/project/finlabexportdata/data/json/turnover_{o_nowDate}.json"
+remote_file_path = 'static/turnover_20240105.json'
 
 # 呼叫上傳檔案函式
 upload_file_to_ftp(hostname, username, password, local_file_path, remote_file_path)

@@ -53,7 +53,8 @@ else:
 df_combined2 = pd.concat([dfc, df_combined], ignore_index=True)
 df_combined3 = df_combined2.drop_duplicates(subset=['stockId', '中文名稱']).sort_values(by=['time','stockId'], ascending=False)
 df_combined3 = df_combined3[['time', 'stockId', '中文名稱']]
-# print(df_combined3)
+
+
 df_combined3.to_csv(csv_file_path, index=False, sep='\t')
 
 # 每天只要匯入同一個檔案就好
@@ -65,13 +66,21 @@ fm.write_LogFile(f"{rootpath}/xq_import_today/{last_date}_量比大.csv", ss)
 
 
 
-js_file_path = f"{rootpath}/xq_import/turnover_{last_date}.json"
+js_file_path = f"{rootpath}/data/json/turnover_{last_date}.json"
 
-# 打开 JavaScript 文件以写入数据
+from datetime import datetime
+
+# 定義轉換函數
+def format_time(time_str):
+    time_obj = datetime.strptime(time_str, "量價型態%Y%m%d_%H%M")
+    return time_obj.strftime("%H:%M")
+
+# 將轉換函數應用到時間欄位
+df_combined3['time'] = df_combined3['time'].apply(format_time)
+
+print(df_combined3)
 with open(js_file_path, 'w') as js_file:
     js_file.write('var jsonData = ')
-
-# 将 DataFrame 转换为 JSON 数据并追加到 JavaScript 文件中
 df_combined3.to_json(js_file_path, orient='records', lines=False, default_handler=None)
 
 print(f'DataFrame已写入到JavaScript文件: {js_file_path}')

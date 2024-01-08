@@ -198,3 +198,31 @@ def lastFinlabStockIdList(positionData):
     df2 = dff[ (dff["val"] == True) & (dff["stock"].str.len() == 4)].dropna(axis = 0, how ='any')
     # print(df2)
     return df2.index.tolist()
+
+import ftplib
+import time
+def FtpFile(local_file_path, remote_file_path):
+    try:
+        # 設定遠端主機的FTP資訊
+        hostname = 'win5181.site4now.net'
+        username = 'danielchou-beow2'
+        password = 'Apple005'
+        # 連線到遠端FTP伺服器
+        ftp = ftplib.FTP(hostname)
+        ftp.login(username, password)
+
+        # 設定檔名的編碼格式
+        ftp.encoding = 'utf-8'
+
+        # 以二進制模式開啟本地檔案
+        with open(local_file_path, 'rb') as file:
+            # 使用FTP的STOR命令上傳檔案
+            ftp.storbinary('STOR ' + remote_file_path, file)
+
+        print(f"成功上傳檔案至 {hostname} 的 {remote_file_path}")
+    except ftplib.all_errors as e:
+        print(f"上傳失敗：{e}")
+    finally:
+        # 關閉FTP連線
+        ftp.quit()
+

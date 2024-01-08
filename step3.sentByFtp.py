@@ -29,6 +29,7 @@ password = 'Apple005'
 
 # 設定本地檔案路徑和遠端檔案路徑
 o_nowDate = time.strftime("%Y%m%d", time.localtime()) 
+# local_file_path = f"D:/project/finlabexportdata/data/json/turnover_{o_nowDate}.json"
 local_file_path = f"D:/project/finlabexportdata/data/json/turnover_{o_nowDate}.json"
 remote_file_path = 'static/turnover_20240105.json'
 

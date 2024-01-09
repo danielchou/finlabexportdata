@@ -77,6 +77,7 @@ def format_time(time_str):
 
 # 將轉換函數應用到時間欄位
 df_combined3['time'] = df_combined3['time'].apply(format_time)
+df_combined3.rename(columns={'stockId': 'id'}, inplace=True)
 
 print(df_combined3)
 with open(js_file_path, 'w') as js_file:

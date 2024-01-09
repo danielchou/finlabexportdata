@@ -147,6 +147,11 @@ def fmtSql_capital(r):
     stockId, cap = r["stockId"], r["cap"]
     return f"update stock set capital={cap},modifiedDate=getdate() where id='{stockId}'"
 
+def fmt_all_infor_stock(r):
+    id, open, close, volume, jumpRate, vR, inV, kbar, vMM, vHYY = r["id"], r["open"], r["close"], r["volume"], r["jumpRate"], r["量比"], r["周轉率"], r["kbar"], r["月量比"], r["半年量比"]
+    sql = f'"id":{id},"o":{open},"c":{close},"v":{volume},"jR":{jumpRate},"vR":{vR},"inV":{inV},"kB":"{kbar}","vMM":{vMM},"vYY":{vHYY}'
+    return sql
+
 import os
 import codecs 
 

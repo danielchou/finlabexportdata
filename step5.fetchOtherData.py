@@ -13,7 +13,7 @@ dfm = df.tail(1).to_period('M')
 
 not_nan_columns = dfm.columns[dfm.notna().all()]
 
-# print(not_nan_columns)
+print(not_nan_columns)
 ss=''
 for c in not_nan_columns:
     ss += f'{c},'

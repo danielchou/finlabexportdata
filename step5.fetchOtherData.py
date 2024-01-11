@@ -18,4 +18,3 @@ ss=''
 for c in not_nan_columns:
     ss += f'{c},'
 fm.write_LogFile(f"data/json/monthlyRevenue.json", f"[{ss[:-1]}]") 
-#####################################################################################

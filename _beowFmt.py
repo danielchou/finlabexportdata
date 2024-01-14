@@ -148,8 +148,8 @@ def fmtSql_capital(r):
     return f"update stock set capital={cap},modifiedDate=getdate() where id='{stockId}'"
 
 def fmt_all_infor_stock(r):
-    id, market, open, close, estVolume, amp, jumpRate, vR, inV, vMM, vHYY = r["id"], r["market"], r["open"], r["close"], r["預估量"], r["amp"], r["jumpRate"], r["量比"], r["周轉率"], r["月量比"], r["半年量比"]
-    ss = f'"id":{id},"mk":"{market}","o":{open},"c":{close},"v":{estVolume},"amp":{amp},"jR":{jumpRate},"vR":{vR},"inV":{inV},"vMM":{vMM},"vYY":{vHYY}'
+    id, market, open, close, yHigh, low, estVolume, amp, jumpRate, vR, inV, vMM, vHYY = r["id"], r["market"], r["open"], r["close"], r["yHigh"], r["low"], r["預估量"], r["amp"], r["jumpRate"], r["量比"], r["周轉率"], r["月量比"], r["半年量比"]
+    ss = f'"id":{id},"mk":"{market}","o":{open},"c":{close},"yh":{yHigh},"l":{low},"v":{estVolume},"amp":{amp},"jR":{jumpRate},"vR":{vR},"inV":{inV},"vMM":{vMM},"vYY":{vHYY}'
     return ss
 
 import os

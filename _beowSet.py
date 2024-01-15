@@ -1,5 +1,6 @@
 import pyodbc
 import time
+from datetime import datetime
 
 #排除不列入追蹤的股票，加快速度
 remove_stocks =[
@@ -86,25 +87,49 @@ def ExecuteMSSQL(sql):
     cursor.execute(sql)
     cursor.commit()
 
+
+# 要插入的數據列表，每個元素是一個元組
+# data_to_insert = [
+#      ('ABC', 10.5, 12.3),
+#      ('XYZ', 8.2, 15.7),
+#      # 添加更多數據
+#  ]
+
 import sqlite3
-def ExecuteSqllite(db, sql_command, data_to_insert):
-    conn = sqlite3.connect(db)
-    cursor = conn.cursor()
+import os
+def ExecuteSqllite(db_path, sql_command, data_to_insert):
+    dtm1 = datetime.now()
 
-    # # 要插入的數據列表，每個元素是一個元組
-    # data_to_insert = [
-    #     ('ABC', 10.5, 12.3),
-    #     ('XYZ', 8.2, 15.7),
-    #     # 添加更多數據
-    # ]
-
-    # 使用 executemany 執行批量插入
-    cursor.executemany(sql_command, data_to_insert)
-    # 提交更改
-    conn.commit()
-    # 關閉連接
-    conn.close()
+    # 使用絕對路徑
+    abs_path = os.path.abspath(db_path)
     
+    # 檢查文件是否存在
+    if not os.path.exists(abs_path):
+        raise FileNotFoundError(f"SQLite database file not found at {abs_path}")
+
+    # 確保文件所在目錄的權限
+    if not os.access(os.path.dirname(abs_path), os.W_OK):
+        raise PermissionError(f"Permission denied for directory: {os.path.dirname(abs_path)}")
+
+    conn = sqlite3.connect(abs_path)
+    cursor = conn.cursor()
+    try:
+        print(f"連接資料庫成功：{db_path}")
+
+        cursor.executemany(sql_command, data_to_insert)     # 使用 executemany 執行批量插入
+        conn.commit()
+        print("資料插入成功")
+    except Exception as e:
+        print(f"資料插入失敗，錯誤訊息：{e}")
+    finally:
+        conn.close()
+
+        dtm2 = datetime.now()
+        time_difference = dtm2 - dtm1
+        milliseconds_difference = time_difference.total_seconds() * 1000
+        print(f"寫入資料時間：{milliseconds_difference}毫秒")
+
+
 
 def proc_final_SqlScript(today):
     

@@ -57,7 +57,7 @@ df = df[(df["id"]>="1101") & (df["id"]<="9999") & (df["id"].str.len() == 4)].sor
 # df.info()
 # print(df.head(50))
 
-######################################################################################################################################
+## 取得即時股價收盤價資料 ----------------------------------------------------------------------------------------
 r2 = requests.get("https://www.wantgoo.com/stock/all-turnover-rates", headers = headers).content
 soup = BeautifulSoup(r2, "html.parser")
 rr2 = soup.prettify()
@@ -81,12 +81,9 @@ dfc["量比周轉"] = ((dfc["量比"] + dfc["value"]) / 2).round(4)
 dfc.replace([np.inf, -np.inf], 0, inplace=True)
 dfc["json"] = dfc.apply(fm.fmt_all_infor_stock, axis=1)
 
-## 策略2:找出周轉率高  
-    ## 20230907:預估量大於5000張
-    ## 20230907:振福小於4%
-dfc2 = dfc[ (dfc["yVolume"] > 400) & (dfc["close"] < 400) & (dfc["amp"] > 0.3) & (dfc["量比"] > 1.5) & (dfc["預估量"] > 2000 ) & (dfc["周轉率"] > 1) & (dfc["market"] != "Emerging") ]
+## 策略2:找出周轉率高 、不包含興櫃公司
+dfc2 = dfc[ (dfc["yVolume"] > 2000) & (dfc["close"] < 400) & (dfc["amp"] > 0.3) & (dfc["量比"] > 1.5) & (dfc["預估量"] > 2000 ) & (dfc["周轉率"] > 1) & (dfc["market"] != "Emerging") ]
 df2a   = dfc2.loc[:, ["id","market","name","yClose","low","previousClose","open","close","jump","amp","jumpRate","yVolume","預估量","量比","週量比","月量比","季量比","半年量比","年量比","周轉率","量比周轉"]].sort_values("周轉率", ascending=False)
-
 
 nowtime = time.localtime()
 s1 ,s2 ,s3, o_nowDate, o_nowTime = '', '', '', time.strftime("%Y%m%d", nowtime) , time.strftime("%Y%m%d_%H%M", nowtime)

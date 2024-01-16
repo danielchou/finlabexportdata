@@ -12,33 +12,41 @@ import time
 from finlab import data
 import os
 
+rootpath= "D:/project/finlabexportdata/"
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36(KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
 }
 
-r3 = requests.get("https://www.wantgoo.com/investrue/all-alive", headers = headers).content
-soup = BeautifulSoup(r3, "html.parser")
-rr3 = soup.prettify()
-dfn = pd.read_json(rr3)
-dfn = dfn[(dfn["id"]>="1101") & (dfn["id"]<="9999") & (dfn["id"].str.len() == 4)]
-dfn = dfn.drop(columns=['type','country','url', 'industries'])
-dfn["id"] = dfn["id"].astype("string")
+# r3 = requests.get("https://www.wantgoo.com/investrue/all-alive", headers = headers).content
+# soup = BeautifulSoup(r3, "html.parser")
+# rr3 = soup.prettify()
+# dfn = pd.read_json(rr3)
+# dfn = dfn[(dfn["id"]>="1101") & (dfn["id"]<="9999") & (dfn["id"].str.len() == 4)]
+# dfn = dfn.drop(columns=['type','country','url', 'industries'])
+# dfn["id"] = dfn["id"].astype("string")
 
+## 取股票名稱 #-----------------------------------------------------------------
+dfStockName = pd.read_csv(f"{rootpath}/paras/股票名稱.csv")
+dfStockName.columns = ["id", "name","market"]
+dfStockName["id"] = dfStockName["id"].astype('str')
+
+## 開始抓即股價資料 ---------------------------------------------------------------------------------
 r = requests.get("https://www.wantgoo.com/investrue/all-quote-info", headers = headers).content
 soup = BeautifulSoup(r, "html.parser")
 rr = soup.prettify()
 df = pd.read_json(rr)
 df = df.drop(columns=['tradeDate', 'time','millionAmount'])
 df["id"] = df["id"].astype("string")
-df = pd.merge(df, dfn, left_on="id", right_on="id")  ## 結合股票名稱
+df = pd.merge(df, dfStockName, left_on="id", right_on="id")  ## 結合股票名稱
 df["volume"] = df["volume"].astype("float")
 df["amp"] = ((df["close"] - df["previousClose"])/df["previousClose"] * 100).round(2)
 df["jump"] = df["open"] - df["previousClose"]
 df["jumpRate"] = (df["jump"] / df["open"] * 100).round(2)
 
+## 剔除金融股、興櫃、ETF 等股票
 unwanted = ["2809","2880","2881","2882","2883","2884","2885","2886","2887","2888","2889","2890","2891","2892",  "2412","2303","1605","2027","2023","2313"]
 df = df[~df["id"].isin(unwanted)]
-df = df[(df["id"]>="1101") & (df["id"]<="9999") & (df["id"].str.len() == 4)].sort_values("jumpRate", ascending=False)
+df = df[(df["id"]>="1101") & (df["id"]<="9999") & (df["id"].str.len() == 4) & (df["market"] != "Emerging")].sort_values("jumpRate", ascending=False)
 
 
 nowtime = time.localtime()

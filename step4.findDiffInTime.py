@@ -37,7 +37,7 @@ df_diff["time"] = last1_file_name.removesuffix("_量比大").removeprefix("量�
 
 ## 取股票名稱 #--------------------------------------------------
 dfStockName = pd.read_csv(f"{rootpath}/paras/股票名稱.csv")
-dfStockName.columns = ["stockId", "中文名稱"]
+dfStockName.columns = ["stockId", "中文名稱","market"]
 dfStockName["stockId"] = dfStockName["stockId"].astype('str')
 ## -------------------------------------------------------------
 

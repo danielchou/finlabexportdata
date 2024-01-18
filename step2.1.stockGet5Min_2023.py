@@ -63,6 +63,11 @@ soup = BeautifulSoup(r2, "html.parser")
 rr2 = soup.prettify()
 dfa = pd.read_json(rr2)
 # print(dfv)
+from IPython.display import display
+pd.set_option('display.expand_frame_repr', False)
+pd.set_option('display.max_rows', 500)
+pd.set_option("expand_frame_repr", False)
+pd.set_option('display.width', 180)    
 
 dfa["investrueId"] = dfa["investrueId"].astype("string")
 dfb = pd.merge(df, dfa, left_on="id", right_on="investrueId")
@@ -80,10 +85,10 @@ dfc["年量比"] = (dfc["預估量"] / dfc["ma240"]).round(2)
 dfc["量比周轉"] = ((dfc["量比"] + dfc["value"]) / 2).round(4)
 dfc.replace([np.inf, -np.inf], 0, inplace=True)
 dfc["json"] = dfc.apply(fm.fmt_all_infor_stock, axis=1)
-
+print(dfc["json"])
 ## 策略2:找出周轉率高 、不包含興櫃公司
 dfc2 = dfc[ (dfc["yVolume"] > 2000) & (dfc["close"] < 400) & (dfc["amp"] > 0.3) & (dfc["量比"] > 1.5) & (dfc["預估量"] > 2000 ) & (dfc["周轉率"] > 1) & (dfc["market"] != "Emerging") ]
-df2a   = dfc2.loc[:, ["id","market","name","yClose","low","previousClose","open","close","jump","amp","jumpRate","yVolume","預估量","量比","週量比","月量比","季量比","半年量比","年量比","周轉率","量比周轉"]].sort_values("周轉率", ascending=False)
+df2a   = dfc2.loc[:, ["id","market","name","yClose","low","open","close","jump","amp","jumpRate","yVolume","預估量","量比","週量比","月量比","季量比","半年量比","年量比","周轉率","量比周轉"]].sort_values("周轉率", ascending=False)
 
 nowtime = time.localtime()
 s1 ,s2 ,s3, o_nowDate, o_nowTime = '', '', '', time.strftime("%Y%m%d", nowtime) , time.strftime("%Y%m%d_%H%M", nowtime)

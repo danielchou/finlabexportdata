@@ -4,3 +4,5 @@ xq_import/
 xq_import_today/
 volumeData/
 chatGPT_apikey.txt
+data/old
+stock.db
